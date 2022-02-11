@@ -1,0 +1,7 @@
+### GET Show (version 1)
+GET http://localhost:8080/shoes/search
+version: 1
+
+### GET Show (version 2)
+GET http://localhost:8080/shoes/search
+version: 2

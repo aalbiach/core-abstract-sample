@@ -1,0 +1,3 @@
+### GET Show (version 3)
+GET http://localhost:8080/stock
+version: 3
