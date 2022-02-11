@@ -1,0 +1,18 @@
+root = true
+
+[*]
+charset                     = utf-8
+end_of_line                 = lf
+indent_size                 = 4
+tab_width                   = 4
+indent_style                = space
+insert_final_newline        = true
+max_line_length             = 180
+trim_trailing_whitespace    = true
+ij_continuation_indent_size = 4
+
+[.editorconfig]
+ij_editorconfig_align_group_field_declarations = true
+
+[*.java]
+ij_java_align_group_field_declarations = true
