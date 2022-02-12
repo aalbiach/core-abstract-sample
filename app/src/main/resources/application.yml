@@ -1,0 +1,17 @@
+server:
+  port: 8080
+  http2:
+    enabled: true
+  compression:
+    enabled: true
+
+logging:
+  level:
+    com.example.demo: DEBUG
+
+spring:
+  jackson:
+    default-property-inclusion: non_null
+    time-zone: UTC
+  mvc:
+    throw-exception-if-no-handler-found: true

@@ -16,3 +16,12 @@ ij_editorconfig_align_group_field_declarations = true
 
 [*.java]
 ij_java_align_group_field_declarations = true
+ij_java_align_consecutive_assignments = true
+
+[{*.yml,*.yaml}]
+indent_size = 2
+tab_width   = 2
+
+[*.xml]
+indent_size = 2
+tab_width   = 2
