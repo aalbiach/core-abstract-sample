@@ -16,44 +16,32 @@
       <groupId>com.example</groupId>
       <artifactId>dto</artifactId>
       <version>${parent.version}</version>
+      <scope>provided</scope>
     </dependency>
     <dependency>
       <groupId>com.example</groupId>
       <artifactId>core</artifactId>
       <version>${parent.version}</version>
+      <scope>provided</scope>
     </dependency>
     <dependency>
       <groupId>com.example</groupId>
       <artifactId>core-legacy</artifactId>
       <version>${parent.version}</version>
+      <scope>provided</scope>
     </dependency>
     <dependency>
       <groupId>com.example</groupId>
       <artifactId>core-new</artifactId>
       <version>${parent.version}</version>
+      <scope>provided</scope>
     </dependency>
     <dependency>
       <groupId>com.example</groupId>
       <artifactId>core-v3</artifactId>
       <version>${parent.version}</version>
+      <scope>provided</scope>
     </dependency>
   </dependencies>
-
-  <build>
-    <plugins>
-      <plugin>
-        <groupId>org.springframework.boot</groupId>
-        <artifactId>spring-boot-maven-plugin</artifactId>
-        <configuration>
-          <excludes>
-            <exclude>
-              <groupId>org.projectlombok</groupId>
-              <artifactId>lombok</artifactId>
-            </exclude>
-          </excludes>
-        </configuration>
-      </plugin>
-    </plugins>
-  </build>
 
 </project>
