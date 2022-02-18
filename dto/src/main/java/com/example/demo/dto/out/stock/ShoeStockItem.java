@@ -1,6 +1,6 @@
 package com.example.demo.dto.out.stock;
 
-import com.example.demo.dto.in.ShoeFilter.Color;
+import com.example.demo.entity.Color;
 import lombok.EqualsAndHashCode;
 import lombok.ToString;
 import lombok.Value;

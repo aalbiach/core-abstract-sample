@@ -11,5 +11,13 @@
 
   <artifactId>dto</artifactId>
 
+  <dependencies>
+    <dependency>
+      <groupId>com.example</groupId>
+      <artifactId>domain</artifactId>
+      <version>1.0</version>
+    </dependency>
+  </dependencies>
+
 
 </project>

@@ -18,6 +18,10 @@ ij_editorconfig_align_group_field_declarations = true
 ij_java_align_group_field_declarations = true
 ij_java_align_consecutive_assignments = true
 
+[*.groovy]
+ij_groovy_align_group_field_declarations = true
+ij_groovy_align_multiline_assignment = true
+
 [{*.yml,*.yaml}]
 indent_size = 2
 tab_width   = 2
